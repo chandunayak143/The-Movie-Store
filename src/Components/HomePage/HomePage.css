@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+.carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .carousel-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+    width: 90%;
+  }
+  
+  .carousel-heading {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+    font-family: "Racing Sans One", sans-serif;
+    letter-spacing: 7px;
+    text-shadow:0 0 12px #8bc3f7,
+    0 0 20px  #fa2dfa,
+    0 3px 10px rgba(88, 87, 87, 0.5);
+    backdrop-filter: blur(0.5px);
+
+  }
+  
+  /* Responsive text scaling */
+  @media screen and (min-width:768px) {
+    .carousel-heading {
+      font-size: 135px;
+    }
+  }
+  
+  @media screen and (max-width:767px) {
+    .carousel-heading {
+      font-size: 70px;
+    }
+  }
+  

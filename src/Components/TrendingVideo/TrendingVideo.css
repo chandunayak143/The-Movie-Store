@@ -1,0 +1,12 @@
+.trending-video-container{
+    padding: 15px 0px;
+    margin-top: 60px;
+    background-color: rgb(213, 235, 135);
+}
+.trending-video-title{
+    color: tomato;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}

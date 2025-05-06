@@ -1,0 +1,156 @@
+.login-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-page-heaidng{
+    font-size: 20px;
+    font-weight: 700;
+    color: tomato;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+.movie-icon{
+    color: rgb(218, 13, 218);
+    font-size: 24px;
+    margin-right: 6px;
+}
+.welcome-text{
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #585353;
+}
+.user-form{
+    display: flex;
+    flex-direction: column;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0px;
+}
+.label-details{
+    font-size: 17px;
+    font-weight: 500;
+    color: tomato;
+    letter-spacing: 1px;
+    padding-bottom: 6px;
+}
+.user-input{
+    height: 42px;
+    width: 305px;
+    border: 1px solid rgb(176, 177, 177);
+    border-radius: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-btn{
+    height: 50px;
+    width: 120px;
+    border-radius: 45px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, gold, rgb(223, 133, 118));
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 6px 10px;
+    color: white;
+}
+.sign-btn{
+    background-color: transparent;
+    border: 1px solid #bababa;
+    height: 50px;
+    width: 120px;
+    border-radius: 45px;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 6px 10px;
+    color: #000000;
+}
+.error-msg{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ff0b37;
+    letter-spacing: 1px;
+}
+.carousel-container {
+    width: 100%;
+    margin: 0px;
+    height: 420px;
+}
+  
+  
+  
+
+
+@media screen and (min-width:768px){
+    .login-page{
+        background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/22181.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .login-left{
+        background-color: white;
+        box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+        height: 420px;
+        width: 350px;
+        border-radius: 10px;
+        padding: 20px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+    .login-right{
+        background-color: white;
+        box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.3);
+        height: 420px;
+        width: 350px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    .carousel-image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    .user-input{
+        height: 45px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .login-page{
+        background-color: white;
+    }
+    .login-right{
+        display: none;
+    }
+    .login-left{
+        background-color: white;
+        box-shadow: inset 2px 2px 8px 6px rgba(0, 0, 0, 0.3);
+        height: 420px;
+        width: 350px;
+        border-radius: 10px;
+        padding: 20px;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+}

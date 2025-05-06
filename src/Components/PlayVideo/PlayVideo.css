@@ -1,0 +1,44 @@
+.play-video{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 50px;
+}
+.main-title{
+    padding: 10px 15px;
+    width:auto ;
+    margin: 0px 10px;
+}
+.alignment-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    margin:0px 10px;
+}
+.description{
+    width: 420px;
+    flex-wrap: wrap;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #202020;
+    margin-left: -40px;
+}
+.back-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.back-to-home-page{
+    width: 120px;
+    text-align: center;
+    height: 45px;
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
